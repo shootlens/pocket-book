@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>shootlens</title>
+	<link href="https://fonts.googleapis.com/css?family=Mukta&display=swap" rel="stylesheet"><!--p-->
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script><!--social icons-->
+	<link href="https://fonts.googleapis.com/css?family=Damion&display=swap" rel="stylesheet"><!--p3-->
+<style>
+	body{
+		background-color:#001f3f;
+		margin:0;
+		padding:8vw;
+	}
+	.socialicons{
+		text-align: center;
+		}
+	.socialicons i{
+		color:#f0d9da;
+		padding:40px;
+		font-size:35px;
+		}
+	h1{
+		color:grey;
+		text-align:center;
+		margin:5vw;
+	}
+	h2{
+		color: white;
+		font-size: 2vw;
+	}
+	p,th,td{
+		color: white;
+		font-family: 'Mukta', sans-serif;
+		font-size: 1.5vw;
+	}
+	h3{
+		color:white;
+	}
+	 p3{
+			font-family: 'Damion', cursive;
+			color:#f0d9da;
+			font-size: 35px;
+			text-align: center;
+		}
+	/*scroll*/
+	.scrollTop{
+			position:fixed;
+			bottom:800px;
+			right: 40px;
+			width: 60px;
+			height:60px;
+			background: #fff url('up.png');
+			border-radius: 50%;
+			background-size: 40px;
+			background-position:center;
+			background-repeat: no-repeat;
+			cursor: pointer;
+			z-index: 100000;
+			visibility: hidden;
+			opacity: 0;
+			transition: 0.5s;
+		}
+		.scrollTop.active{
+			bottom: 40px;
+			visibility: visible;
+			opacity: 1;
+		}
+	</style>
+</head>
+<body>
+	<div class="scrollTop" onclick="scrollToTop();"></div>
+		<h1>Important Questions on Python</h1>
+		<h2>1.&nbsp;What is python?</h2>
+		<p>Ans:<br>
+		Python is a high-level and object-oriented programming language with unified semantics designed primarily for developing apps and web. It is the core language in the field of Rapid Application Development (RAD) as it offers options such as dynamic binding and dynamic typing.</p><hr>
+		<h2>2.&nbsp;what are the benefits of Python?</h2>
+		<p>Ans:<br> The benefits of Python are as follows:<br><br>
+
+       <b>Speed and Productivity:</b> Utilizing the productivity and speed of Python will enhance the process control capabilities and possesses strong integration.<br><br>
+       <b>Extensive Support for Libraries:</b> Python provides a large standard library that includes areas such as operating system interfaces, web service tools, internet protocols, and string protocols. Most of the programming tasks are already been scripted in the standard library which reduces effort and time.<br><br>
+       <b>User-friendly Data Structures:</b> Python has an in-built dictionary of data structures that are used to build fast user-friendly data structures.<br><br>
+       <b>Existence of Third Party Modules:</b> The presence of third party modules in the Python Package Index (PyPI) will make Python capable to interact with other platforms and languages.<br><br>
+       <b>Easy Learning:</b> Python provides excellent readability and simple syntaxes to make it easy for beginners to learn.</p><hr>
+       <h2>3.&nbsp;What are the key features of Python?</h2>
+       <p>Ans:<br> The following are the significant features of Python, and they are:<br><br>
+
+       <b>Interpreted Language:</b> Python is an interpreted language that is used to execute the code line by line at a time. This makes debugging easy.<br><br>
+       <b>Highly Portable:</b> As Python can run on different platforms such as Unix, Macintosh, Linux, Windows, and so on. So, we can say that it is a highly portable language.<br><br>
+       <b>Extensible:</b> It ensures that the Python code can be compiled on various other languages such as C, C++ and so on.<br><br>
+       <b>GUI programming Support:</b> It implies that the Python provides support to develop graphical user interfaces</p><hr>
+       <h2>4.&nbsp;What type of language is Python? Programming or Scripting?</h2>
+       <p>Ans:<br> Python is suitable for scripting, but in general it is considered as a general-purpose programming language.</p><hr>
+       <h2>5.&nbsp;What are the applications of Python?</h2>
+       <p>Ans:<br> The applications of Python are as follows:<br><br>
+
+       >> &nbsp;GUI based desktop applications<br><br>
+       >> &nbsp;Image processing applications<br><br>
+       >> &nbsp;Business and Enterprise applications<br><br>
+       >> &nbsp;Prototyping<br><br>
+       >> &nbsp;Web and web framework applications</p><hr>
+       <h2>6.&nbsp; What is the difference between list and tuple in Python?</h2>
+       <p>Ans:<br> The difference between tuple and list are as follows</p>
+       <table border="2px">
+       	<tr>
+       		<th>tuple</th>
+       		<th>List</th>
+       	</tr>
+       	<tr>
+       		<td>The list is mutable (can be changed)</td>
+       		<td>A tuple is immutable (remains constant)</td>
+       	</tr>
+       	<tr>
+       	   <td>These lists performance is slower</td>
+       	   <td>Tuple performance is faster when compared to lists</td>
+       </tr>
+       <tr>
+       	   <td>Syntax: list_1 = [20, ‘Mindmajix’, 30]</td>
+           <td>Syntax: tup_1 = (20, ‘Mindmajix’, 30)</td>
+       </tr>
+       </table><hr>
+       <h2>7.&nsbp;What are the global and local variables in Python?</h2>
+       <p>Ans:<br><b>Global Variables in Python:</b> The variables that are declared outside the function are called global variables. These variables can be accessed or invoked by any function in the program.<br>
+       	<h3>EXAMPLE:</h3>
+       	<table border=1px>
+       		<tr>
+       			<th>1.&nbsp;def v() :<br>
+                    2.&nbsp;print g<br>
+                    3.&nbsp;&nbsp;&nbsp;&nbsp;g = "welcome to shootlens"<br>
+                    4.&nbsp;v()<br></th>
+       		</tr>
+       		<tr>
+       			<td>Output:</td>
+       			<td>Welcome to shootlens</td>
+       		</tr>
+       	</table><br><br>
+       	<p><b>Local Variables in Python:</b> The variables that are declared inside a function are called local variables. These type of variables can be accessed only inside the function.
+       </p><hr>
+       <h2>8.&nbsp;Define PYTHON PATH?</h2>
+       <p>Ans:<br> PYTHONPATH is an environmental variable that is used when we import a module. Suppose at any time we import a module, PYTHONPATH is used to check the presence of the modules that are imported in different directories. Loading of the module will be determined by interpreters.</p><hr>
+
+       <h2>9.&nbsp; What are the two major loop statements?</h2>
+      <p>Ans:<br>for and while</p><hr>
+
+<h2>10.&nbsp;What do you understand by the term PEP 8?</h2>
+<p>Ans:<br> PEP 8 is the Python latest coding convention and it is abbreviated as Python Enhancement Proposal. It is all about how to format your Python code for maximum readability.</p><hr>
+
+<h2>11.&nbsp;How memory management is done in Python?</h2>
+<p>Ans:<br>
+
+In Python memory management is done using private heap space. The private heap is the storage area for all the data structures and objects. The interpreter has access to the private heap and the programmer cannot access this private heap. <br><br>
+The storage allocation for the data structures and objects in Python is done by the memory manager. The access for some tools is provided by core API for programmers to code.<br><br>
+The built-in garbage collector in Python is used to recycle all the unused memory so that it can be available for heap storage area.</p><hr>
+<h2>12.&nbsp;Java vs Python</h2>
+<p>Ans:<br> The major difference between Java and Python are as follows:<br></p>
+<table border="2px	">
+	<tr>
+		<th><b>Function</b></th>
+		<th>Java</th>
+		<th>Python</th>
+	</tr>
+	<tr>
+		<td><b>Coding</b></td>
+		<td>In Java, we need to write a long code to print something.</td>
+		<td>In Python coding is simple and smaller when compared to Java</td>
+	</tr>
+	<tr>
+		<td><b>Syntax</b></td>
+		<td>In Java we need to put a semicolon at the end of the statement and also code must be placed in curly braces.</td>
+		<td>Whereas, in Python indentation is mandatory as it improves the readability of the code.</td>
+	</tr>
+	<tr>
+		<td><b>Dynamic</b></td>
+		<td>In Java, we need to declare the type for each variable</td>
+		<td>In this case, codes are dynamically typed and this is also known as duck typing</td>
+	</tr>
+	<tr>
+		<td><b>Easy to use</b></td>
+		<td>Java is not easy to use because of its larger coding</td>
+		<td>In Python, it is very easy to code and perform very easily.</td>
+	</tr>
+	<tr>
+		<td><b>Databases</b></td>
+		<td>Java Database Connectivity (JDBC) is more popular and used most commonly.</td>
+		<td>In Python database access layers are weaker when compared to Java.</td>
+	</tr>
+</table><hr>
+<h2>13.&nbsp;Define modules in Python?</h2>
+<p>Ans:<br> Module is defined as a file that includes a set of various functions and Python statements that we want to add in our application. <br><br></p>
+
+<h3>Example of creating` a module: </h3>
+
+<p>In order to create a module first, we need to save the code that we want in a file with .py extension.
+
+Save the module with <b>module.py</b></p>
+<table border="1px">
+	<tr>
+		<th>def wishes(name):<br>
+Print("Hi, " + name)</th>
+	</tr>
+</table><hr>
+<h2>14.&nbsp;What are the built-in types available in Python?</h2>
+<p>Ans:<br>The built-in types in Python are as follows:<br><br>
+
+>>&nbsp;Integer<br><br>
+>>&nbsp;Complex numbers<br><br>
+>>&nbsp;Floating-point numbers<br><br>
+>>&nbsp;Strings<br><br>
+>>&nbsp;Built-in functions</p><hr>
+<h2>15.&nbsp;What are Python Decorators?</h2>
+<p>Ans:<br>Decorator is the most useful tool in Python as it allows programmers to alter the changes in the behavior of class or function. 
+
+<h3>Example for Python Decorator is:</h3>
+<table border="1px">
+	<tr>
+		<th>@gfg_decorator<br>
+def hi_decorator():<br>
+    print("Gfg")</th>
+	</tr>
+</table><hr>
+<h2>16.&nbsp;How do we find bugs and statistical problems in Python?</h2>
+<p>Ans:<br> We can detect bugs in python source code using a static analysis tool named PyChecker. Moreover, there is another tool called PyLint that checks whether the Python modules meet their coding standards or not.</p><hr>
+
+<h2>17.&nbsp;What is the difference between .py and .pyc files?</h2>
+<p>Ans:<br>.py files are Python source files. .pyc files are the compiled bytecode files that are generated by the Python compiler</p><hr>
+
+<h2>18.&nbsp;How do you invoke the Python interpreter for interactive use?</h2>
+<p>Ans:<br>By using python or pythonx.y we can invoke Python interpreter. where x.y is the version of the Python interpreter.</p><hr>
+
+<h2>19.&nbsp;Define String in Python?</h2>
+<p>Ans:<br>String in Python is formed using a sequence of characters. Value once assigned to a string cannot be modified because they are immutable objects. String literals in Python can be declared using double quotes or single quotes.</p><hr>
+<h2>20.&nbsp;What do you understand by the term namespace in Python?</h2>
+<p>Ans:<br> A namespace in Python can be defined as a system that is designed to provide a unique name for every object in python. Types of namespaces that are present in Python are:<br><br>
+
+>>&nbsp;Local namespace<br><br>
+>>&nbsp;Global namespace<br><br>
+>>&nbsp;Built-in namespace<br><br>
+<b>Scope of an object in Python:</b> <br><br>
+
+Scope refers to the availability and accessibility of an object in the coding region.</p><hr>
+
+<h2>21.&nbsp; How do you create a Python function?</h2>
+<p>Ans:<br> Functions are defined using the def statement.
+
+An example might be <b>def foo(bar):</b></p><hr>
+
+<h2>22.&nbsp;Define iterators in Python?</h2>
+<p>Ans:<br> In Python, an iterator can be defined as an object that can be iterated or traversed upon. In another way, it is mainly used to iterate a group of containers, elements, the same as a list.</p><hr>
+
+<h2>23.&nbsp;How does a function return values?
+<p>Ans:<br>Functions return values using the return statement.</p><hr>
+
+<h2>24.&nbsp;Define slicing in Python?</h2>
+<p>Ans:<br> Slicing is a procedure used to select a particular range of items from sequence types such as Strings, lists, and so on.</p><hr>
+
+<h2>25.&nbsp;How can Python be an interpreted language?</h2>
+<p>Ans:<br> As in Python the code which we write is not machine-level code before runtime so, this is the reason why Python is called as an interpreted language.</p><hr>
+
+<h2>26.&nbsp;What happens when a function doesn’t have a return statement? Is this valid?</h2>
+<p>Ans:<br>Yes, this is valid. The function will then return a None object. The end of a function is defined by the block of code is executed (i.e., the indenting) not by any explicit keyword.</p><hr>
+
+<h2>27.&nbsp;Define package in Python?</h2>
+<p>Ans:&nbsp;In Python packages are defined as the collection of different modules.</p><hr>
+
+<h2>28.&nbsp;How can we make a Python script executable on Unix?</h2>
+<p>Ans:<br>In order to make a Python script executable on Unix, we need to perform two things. They are:<br><br>
+
+Script file mode must be executable and<br><br>
+
+The first line should always begin with #.</p><hr>
+
+<h2>29. Which command is used to delete files in Python?</h2>
+<p>Ans:<br> OS.unlink(filename) or OS.remove(filename) are the commands used to delete files in Python Programming.</p><hr>
+<h2>30.&nbsp;Define pickling and unpickling in Python?</h2>
+<p>Ans: <br>
+
+<b>Pickling in Python:</b> The process in which the pickle module accepts various Python objects and converts into a string representation and dumps the file accordingly using dump function is called pickling.<br><br>
+
+<b>Unpickling in Python:</b> The process of retrieving actual Python objects from the stored string representation is called unpickling.</p><hr>
+<h2>31.&nbsp;Explain the difference between local and global namespaces?</h2>
+<p>Ans:<br>Local namespaces are created within a function when that function is called. Global namespaces are created when the program starts.</p><hr>
+
+<h2>32.&nbsp;What is a boolean in Python?</h2>
+<p>Ans:<br> Boolean is one of the built-in data types in Python, it mainly contains two values, and they are true and false. </p><hr>
+<div class="socialicons">
+    	<a href="https://www.facebook.com/shootlensp/">
+  			<i class="fab fa-facebook-f"></i>
+  		</a>
+  		<a  href="https://www.instagram.com/shoot_lens_photography/?hl=en">
+  			<i class="fab fa-instagram"></i>
+  		</a>
+  		<a href="https://www.youtube.com/channel/UCXg7X0AwigVbn--1cZQ_Jwg?view_as=subscriber">
+  			<i class="fab fa-youtube"></i>
+  		</a>
+  	</div>
+  	<h4>Note: All the content in this page will be collected from Senior HR's</h4>
+  	<p3>Shootlens</p3>
+
+  	<script type="text/javascript">
+		window.addEventListener('scroll', function(){
+			var scroll = document.querySelector('.scrollTop');
+			scroll.classList.toggle("active" , window.scrollY > 500)
+		})
+
+
+
+		function scrollToTop(){
+			window.scrollTo({
+				top: 0,
+				behavior:'smooth'
+			})
+		}
+	</script>
+</body>
+</html>
